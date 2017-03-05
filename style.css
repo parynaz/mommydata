@@ -1,0 +1,11 @@
+
+p, button, b, label, ion-item{
+  font-family: Georgia;
+  font-size: 110%;
+}
+
+.verify-input{
+  background-color: #FF4500;
+  color: white;
+  border: 1px solid #696969 ;
+}
