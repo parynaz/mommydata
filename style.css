@@ -1,11 +1,39 @@
 
-p, button, b, label, ion-item{
-  font-family: Georgia;
-  font-size: 110%;
+
+
+button {
+  background-color: #008CBA; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align:center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 35px;
 }
 
-.verify-input{
-  background-color: #FF4500;
-  color: white;
-  border: 1px solid #696969 ;
+.content-wrapper{
+  height: 200px;
+  width: 250px;
+}
+
+.title-wrapper{
+    height: 20px;
+    width: 250px;
+}
+
+.wrapper{
+    height: 50px;
+    width: 250px;
+}
+
+#description{
+  text-align:center;
+  font-size:130%;
+}
+
+#title{
+  text-align: left;
+  font-size:160%;
+  color:#FF4500;
 }
