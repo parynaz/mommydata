@@ -14,7 +14,14 @@
   ],
   "browser_action": {
     "default_title": "Verify",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon" : "icon.png"
   },
+  "content_scripts": [
+    {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["content.js"]
+    }
+  ],
   "manifest_version": 2
 }
