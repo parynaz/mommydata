@@ -13,7 +13,7 @@ chrome.extension.onMessage.addListener(function(request, sender, sendResponse) {
 // send a message to the content script
 var colorDivs = function() {
 	chrome.tabs.getSelected(null, function(tab){
-	    chrome.tabs.sendMessage(tab.id, {type: "colors-div", color: "#F00"});
+	    chrome.tabs.sendMessage(tab.id, {type: "colors-div", color: "#ffffff"});
 	    // setting a badge
 		chrome.browserAction.setBadgeText({text: "Verified!"});
 	});
