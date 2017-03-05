@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+p, button, b, label, ion-item{
+    font-family: 'Indie Flower', cursive;
+
+}
