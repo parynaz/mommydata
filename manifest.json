@@ -5,6 +5,13 @@
   "permissions": [
     "activeTab"
   ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*"],
+      "css": ["style.css"],
+      "js": ["popup.js"]
+    }
+  ],
   "browser_action": {
     "default_title": "Verify",
     "default_popup": "popup.html"
